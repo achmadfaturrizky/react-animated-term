@@ -103,14 +103,7 @@ var Terminal = function Terminal(_ref) {
               'div',
               { className: 'Terminal-code' },
               renderLines(children)
-            ),
-            completed ? React.createElement(
-              'a',
-              { className: btnClassName, onClick: function onClick() {
-                  return onReplay();
-                } },
-              ''
-            ) : null
+            )
           )
         )
       )

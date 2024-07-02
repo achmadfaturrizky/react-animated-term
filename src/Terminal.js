@@ -57,9 +57,7 @@ const getConsoleStyle = (code, white) => {
 }
 
 const Terminal = ({ children, white, height, code, onReplay, completed }) => {
-  const btnClassName = white
-    ? 'Terminal-control-btn Terminal-control-btn-white'
-    : 'Terminal-control-btn'
+
 
   return (
     <div className={getWindowStyle(white)}>

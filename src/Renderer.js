@@ -56,7 +56,6 @@ class Renderer extends React.Component {
     return (
       <Terminal
         {...this.props}
-        onReplay={() => this.replay()}
         completed={this.state.completed}
       >
         {this.state.lines}
