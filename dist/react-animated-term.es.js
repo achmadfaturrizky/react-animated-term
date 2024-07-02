@@ -109,7 +109,7 @@ var Terminal = function Terminal(_ref) {
               { className: btnClassName, onClick: function onClick() {
                   return onReplay();
                 } },
-              'Replay'
+              ''
             ) : null
           )
         )
