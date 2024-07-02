@@ -79,11 +79,6 @@ const Terminal = ({ children, white, height, code, onReplay, completed }) => {
             ) : (
               <div>
                 <div className="Terminal-code">{renderLines(children)}</div>
-                {/* {completed ? (
-                  <a className={btnClassName} onClick={() => onReplay()}>
-                    Replay
-                  </a>
-                ) : null} */}
               </div>
             )}
           </div>
